@@ -1,0 +1,13 @@
+= LightweightLocale Plugin
+
+A lightweight locale plugin for Ruby on Rails.
+
+- It sets the +I18n.locale+ based on a query param called +locale+ or the HTTP header.
+
+- It stores the locale in the session.
+
+- It provides the +select_locale_tag+ helper.
+
+== Copyright & License
+
+Copyright (c) 2010 Jan Schulz-Hofen, ROCKET RENTALS GmbH, released under the MIT license
